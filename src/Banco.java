@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Banco {
-    private String nome;
-    private List<Conta> contas;
+    private final String nome;
+    private final List<Conta> contas;
 
     public Banco(String nome) {
         this.nome = nome;
